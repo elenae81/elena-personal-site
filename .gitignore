@@ -128,3 +128,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Generated files
+package/generated*
+
+
+# Ignore eleventy output when doing manual tests
+_site/
+
+# Ignore test files
+.cache
+test/stubs-layout-cache/_includes/*.js
