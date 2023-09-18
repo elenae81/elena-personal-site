@@ -9,5 +9,5 @@ module.exports = {
       'serif': ['Georgia', 'ui-serif']
     }
   },
-  plugins: [],
+  plugins: [    require('@tailwindcss/typography')],
 }
