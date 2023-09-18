@@ -12,21 +12,35 @@
     <!-- Change the line below and the tailwind config -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@300;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@300;400;600;900&display=swap" rel="stylesheet">
   </head>
   <body class="text-gray-50">
-    <section class="bg-red-800 flex flex-col py-10 mx-auto px-8 lg:px-32">
+    <section class="bg-red-800 flex flex-col py-12 mx-auto px-8 lg:px-32">
       <h1 class="text-5xl pb-2 font-archivo">Elena Escalante</h1>
       <span class="text-xl">Creative Producer & Director</span>
+      <ul class="flex flex-row space-x-2">
+        <li>
+          <a href="#work" class="underline">Work</a>
+        </li>
+        <li>
+          <a href="#about" class="underline">About</a></li>
+        <li>
+        <a
+          href="mailto:https://www.linkedin.com/in/elenaescalantedelhoyo/"
+          class="underline"
+          >Linkedin</a
+        >
+        </li>
+      </ul>
     </section>
-    <section class="bg-gray-900 mx-auto px-8 lg:px-32">
-      <h1 class="text-4xl pt-8 font-bold">Work</h2>
+    <section class="bg-black opacity-95 mx-auto px-8 py-4 lg:px-32">
+      <h1 class="text-4xl pt-12 font-bold" id="work">Work</h2>
       <section>
         <h2 class="text-3xl pt-4 font-semibold">Production</h2>
         <div>
           <h3 class="text-xl pt-2">Commercial</h3>
           <p>Client: Google for Education</p>
-          <div class="py-4 max-h-30">
+          <div class="py-6 max-h-30">
             <div style="padding: 60% 0 0 0; position: relative">
               <iframe
                 title="Google for Education"
@@ -42,7 +56,7 @@
         <div>
           <h3 class="text-xl pt-2">Animation & VFX</h3>
           <p>Client: Team17 x Black Salt Games</p>
-          <div class="py-4 max-h-30">
+          <div class="py-6 max-h-30">
             <div style="padding: 60% 0 0 0; position: relative">
               <iframe
                 title="Dredge trailer"
@@ -63,7 +77,7 @@
         <h2 class="text-3xl pt-4 font-semibold">Directing</h2>
         <div>
           <h3 class="text-xl pt-2">Fiction: Director's Reel</h3>
-          <div class="py-4 max-h-30">
+          <div class="py-6 max-h-30">
           <div style="padding: 60% 0 0 0; position: relative">
             <iframe
               src="https://player.vimeo.com/video/607301747?h=6ab0c75ded"
@@ -77,7 +91,7 @@
         </div>
         <div>
           <h3 class="text-xl pt-2">Documentary: Elephant Families trailer</h3>
-          <div class="py-4 max-h-30">
+          <div class="py-6 max-h-30">
           <div style="padding: 60% 0 0 0; position: relative">
             <iframe
               src="https://player.vimeo.com/video/822660868"
@@ -92,8 +106,8 @@
       </section>
       
     </section>
-    <section class="mx-auto px-8 py-8 lg:px-32 bg-gray-700">
-    <h1 class="text-3xl font-bold">About</h1>
+    <section class="bg-black opacity-95 mx-auto px-8 py-4 lg:px-32">
+    <h1 class="text-3xl font-bold" id="about">About</h1>
       <p>A Spanish creative producer and director with a passion for storytelling that transcends the medium. 
     <br/>
         She has produced work for clients like Netflix, the British Library and Google. 
@@ -110,7 +124,7 @@
       </p>
     </section>
     <footer
-      class="bg-slate-800 text-slate-200 mx-auto px-8 py-4 lg:px-32"
+      class="bg-red-800 text-slate-200 mx-auto px-8 py-4 lg:px-32 font-semibold"
     >
       © Elena Escalante <span id="copyright-year"></span>
     </footer>
