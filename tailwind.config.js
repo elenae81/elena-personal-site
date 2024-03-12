@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'sans': ['Work Sans', 'ui-sans-serif', 'system-ui'],
-      'archivo': ['Archivo Black', 'ui-sans-serif', 'system-ui'],
-      'serif': ['Georgia', 'ui-serif']
-    }
+      sans: ["Karrik", "Work Sans", "ui-sans-serif", "system-ui"],
+      archivo: ["Archivo Black", "ui-sans-serif", "system-ui"],
+      serif: ["Georgia", "ui-serif"],
+    },
   },
-  plugins: [    require('@tailwindcss/typography')],
-}
+  plugins: [require("@tailwindcss/typography")],
+};
