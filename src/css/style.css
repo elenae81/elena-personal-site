@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'Karrik';
+    src: url('../assets/Karrik-Regular.woff2') format('woff2');
+}
