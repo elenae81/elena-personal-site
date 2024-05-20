@@ -7,3 +7,9 @@
     font-family: 'Karrik';
     src: url('../assets/Karrik-Regular.woff2') format('woff2');
 }
+
+
+@font-face {
+    font-family: 'Mattone Bold';
+    src: url('../assets/Mattone-Bold.woff2') format('woff2');
+}
