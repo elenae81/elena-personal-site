@@ -20,7 +20,7 @@ This website is built with:
 
 The site was originally built by following this guide: [https://5balloons.info/guide-tailwindcss-eleventy-static-site/](https://5balloons.info/guide-tailwindcss-eleventy-static-site/).
 
-_This guidance is accurate as of commit `INSERT_COMMIT_HERE`._
+_This guidance is accurate as of commit `06ef3d7f3d9da9e76c3aa16f55e63ccc7df170fe`._
 
 ## How to modify the website
 The first thing to remember about how this website works is that it's all just text files. There are some complicated bits about how the files work together. But you only need to worry about changing `src/index.html` most of the time.
