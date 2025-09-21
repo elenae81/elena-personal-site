@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: 'Karrik';
-    src: url('../assets/Karrik-Regular.woff2') format('woff2');
+  font-family: "Karrik";
+  src: url("../assets/Karrik-Regular.woff2") format("woff2");
 }
 
-
 @font-face {
-    font-family: 'Mattone Bold';
-    src: url('../assets/Mattone-Bold.woff2') format('woff2');
+  font-family: "Mattone Bold";
+  src: url("../assets/Mattone-Bold.woff2") format("woff2");
+}
+/* Reset default body and heading margins */
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
